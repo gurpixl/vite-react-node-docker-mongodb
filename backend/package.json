@@ -1,0 +1,23 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "Gurpreet Singh",
+  "description": "Gurpixl.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-validator": "^7.3.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.0",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^4.0.6"
+  }
+}
